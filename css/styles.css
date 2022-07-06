@@ -6,6 +6,13 @@
  *
  */
 
+ :root {
+    --regularFont: "cursive";
+    --largeGap: 75px;
+    --makeRound: 100%;
+    --blue: #0000CD;
+ }
+
 html, body {
     margin: 0;
     padding: 0;
@@ -46,6 +53,15 @@ html, body {
 
 div:hover {
     background-color: rgb(27, 218, 56);
+}
+
+.variable-test {
+    font-family: var(--regularFont);
+    margin: var(--largeGap);
+    padding: var(--largeGap);
+    border-radius: var(--makeRound);
+    background-color: var(--blue);
+    text-align: center;
 }
 
 .site-color {
