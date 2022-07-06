@@ -32,6 +32,18 @@ html, body {
     background-color: rgba(255, 0, 0, 0.399999999999999999999999999999999999999999999999999999999999999999);
 }
 
+.cascading-test h4{
+    color: blue;
+    text-align: center;
+}
+
+.cascading-test a {
+    color: aqua;
+    font-weight: bold;
+    position: relative;
+    left: 710px;
+}
+
 .white-whale {
     width: 600px;
     height: 600px;
