@@ -44,6 +44,18 @@ html, body {
     left: 710px;
 }
 
+.site-color {
+    color: pink;
+    background-color: rgb(182, 25, 51);
+}
+
+.site-font {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
 .white-whale {
     width: 600px;
     height: 600px;
