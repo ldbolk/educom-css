@@ -10,7 +10,9 @@
     --regularFont: "cursive";
     --largeGap: 75px;
     --makeRound: 100%;
+
     --blue: #0000CD;
+    --orangeIsh: #fcba03;
  }
 
 html, body {
@@ -51,9 +53,9 @@ html, body {
     left: 710px;
 }
 
-div:hover {
+/* div:hover {
     background-color: rgb(27, 218, 56);
-}
+} */
 
 .variable-test {
     font-family: var(--regularFont);
@@ -62,6 +64,49 @@ div:hover {
     border-radius: var(--makeRound);
     background-color: var(--blue);
     text-align: center;
+}
+
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+
+    border-radius: 10px;
+
+    /* Created with Shadow Generator */
+    -webkit-box-shadow: 50px 73px 56px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 50px 73px 56px -12px rgba(0,0,0,0.75);
+    box-shadow: 50px 73px 56px -12px rgba(0,0,0,0.75);
+
+    text-decoration: none;
+
+    /* Transition effect */
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    text-decoration: none;
+}
+
+.button-containerB a{
+    width: 250px;
+    padding: 10px;
+    color: var(--blue);
+    background-color: var(--orangeIsh);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button-containerC a{
+    width: 300px;
+    padding: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFF;
 }
 
 .site-color {
