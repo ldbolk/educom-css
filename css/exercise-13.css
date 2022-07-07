@@ -1,0 +1,72 @@
+
+
+html, body{
+    margin: 0 !important;
+    padding: 0 !important; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    padding: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 50%;
+    width: 100%;
+}
+
+/* https://picsum.photos/id/1025/4951/3301 */
+/* https://picsum.photos/id/1062/5092/3395 */
+
+.block {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    color: #FFF;
+    display: inline-block;
+    line-height: 350px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 28%;
+    height: 350px;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+}
+
+.block:hover {
+    border: 5px solid transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+    background-color: rgb(209, 209, 209);
+    color: #FFF;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.leftFoot {
+    position: fixed;
+
+    left: 20px;
+}
+
+.rightFoot {
+    position: fixed;
+    right: 20px;
+}
